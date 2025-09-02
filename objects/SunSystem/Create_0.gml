@@ -1,0 +1,1 @@
+var growth_rate = 0;
