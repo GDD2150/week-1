@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"bad",
-    "path":"sprites/bad/bad.yy",
+    "name":"Boxer",
+    "path":"sprites/Boxer/Boxer.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"sunlight",
   "bboxMode":0,
-  "bbox_bottom":39,
+  "bbox_bottom":35,
   "bbox_left":0,
-  "bbox_right":39,
+  "bbox_right":75,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"12f28088-6dc9-4d73-846f-c87a4d42774d","name":"12f28088-6dc9-4d73-846f-c87a4d42774d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"f9dea93a-38ee-4ffc-b5e1-74f816bbbf6c","name":"f9dea93a-38ee-4ffc-b5e1-74f816bbbf6c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":40,
+  "height":36,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"221ab39d-300f-49f8-825b-bd00df1b311f","blendMode":0,"displayName":"default","isLocked":false,"name":"221ab39d-300f-49f8-825b-bd00df1b311f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"fa820024-2205-403d-a3cb-c9889bad0093","blendMode":0,"displayName":"default","isLocked":false,"name":"fa820024-2205-403d-a3cb-c9889bad0093","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sunlight",
   "nineSlice":{
@@ -82,16 +82,16 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
-    "seqHeight":40.0,
-    "seqWidth":40.0,
+    "seqHeight":36.0,
+    "seqWidth":76.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"12f28088-6dc9-4d73-846f-c87a4d42774d","path":"sprites/sunlight/sunlight.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"39cc1efd-451d-45d2-a401-825a7d0086a7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f9dea93a-38ee-4ffc-b5e1-74f816bbbf6c","path":"sprites/sunlight/sunlight.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f6fd8b15-eca6-4151-9540-d7f816fc128b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -107,5 +107,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":40,
+  "width":76,
 }

@@ -8,3 +8,6 @@ randomize();
 /// @DnDHash : 2CDBF54A
 /// @DnDArgument : "steps" "60"
 alarm_set(0, 60);
+
+globalvar enemy_tier;
+enemy_tier = 1;
