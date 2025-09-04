@@ -1,12 +1,10 @@
 function PlayerDeath(){
 	// YOU DIED
-	var x_offset = 200;
-	var y_offset = 100;
-	var center_x = window_get_width()/4 - x_offset;
-	var center_y = window_get_height()/4 + y_offset;
-	instance_create_layer(center_x, center_y, "Instances", DeathObj);
+	var offsetx = Player.x - (camera_get_view_width(view_camera[0]) / 3);
+	var offsety = Player.y - (camera_get_view_height(view_camera[0]) / 8);
+	instance_create_layer(offsetx, offsety, "Instances", DeathObj);
 	
 	// destroy player in scene
-	
+	Player.canMove = false;
 	
 }

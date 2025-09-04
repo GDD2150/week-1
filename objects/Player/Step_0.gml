@@ -1,5 +1,7 @@
     // movement
-    if (keyboard_check(vk_left) or keyboard_check(ord("A"))) // Check if left arrow key is pressed
+if(canMove)
+{
+	if (keyboard_check(vk_left) or keyboard_check(ord("A"))) // Check if left arrow key is pressed
     {
         x -= playerspeed; // Move left
     }
@@ -15,7 +17,8 @@
     {
 		y += playerspeed;
     }
-	
+
+}	
 	// fire projectile
 	if (mouse_check_button_pressed(mb_left) and fire_timer > fire_rate) {
 		fire_timer = 0;

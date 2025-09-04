@@ -35,7 +35,9 @@
   },
   "name":"new_blank",
   "resources":[
+    {"id":{"name":"LargeText","path":"fonts/LargeText/LargeText.yy",},},
     {"id":{"name":"Bullet","path":"objects/Bullet/Bullet.yy",},},
+    {"id":{"name":"CameraObj","path":"objects/CameraObj/CameraObj.yy",},},
     {"id":{"name":"CannonballObj","path":"objects/CannonballObj/CannonballObj.yy",},},
     {"id":{"name":"DeathObj","path":"objects/DeathObj/DeathObj.yy",},},
     {"id":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},},
@@ -48,7 +50,6 @@
     {"id":{"name":"SunCounter","path":"objects/SunCounter/SunCounter.yy",},},
     {"id":{"name":"Sunlight","path":"objects/Sunlight/Sunlight.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"CameraSlowZoom","path":"scripts/CameraSlowZoom/CameraSlowZoom.yy",},},
     {"id":{"name":"PlayerDeath","path":"scripts/PlayerDeath/PlayerDeath.yy",},},
     {"id":{"name":"bad","path":"sprites/bad/bad.yy",},},
     {"id":{"name":"Boxer","path":"sprites/Boxer/Boxer.yy",},},

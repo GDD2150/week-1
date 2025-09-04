@@ -18,6 +18,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"Bullet","order":3,"path":"objects/Bullet/Bullet.yy",},
+    {"name":"CameraObj","order":15,"path":"objects/CameraObj/CameraObj.yy",},
     {"name":"CannonballObj","order":14,"path":"objects/CannonballObj/CannonballObj.yy",},
     {"name":"DeathObj","order":7,"path":"objects/DeathObj/DeathObj.yy",},
     {"name":"Enemy","order":2,"path":"objects/Enemy/Enemy.yy",},
